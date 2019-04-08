@@ -2,7 +2,9 @@
 有度Cordova插件
 # 安装
 安装有度Cordova插件到您的工程, 您只需打开您的本地的terminal输入下面的命令:
-    cordova plugin add 插件本地磁盘存储路径. //cordova plugin add /Users/leeusher/cordova-plugin-youdu-im
+```
+cordova plugin add 插件本地磁盘存储路径. //cordova plugin add /Users/leeusher/cordova-plugin-youdu-im
+```
 安装成功后通过
 
 ```
