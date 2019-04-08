@@ -1,0 +1,38 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {
+      "config.xml": {
+        "parents": {
+          "/*": []
+        }
+      },
+      "*-Info.plist": {
+        "parents": {
+          "NSCameraUsageDescription": [],
+          "NSContactsUsageDescription": [],
+          "NSLocationWhenInUseUsageDescription": [],
+          "NSMicrophoneUsageDescription": [],
+          "NSPhotoLibraryAddUsageDescription": [],
+          "NSPhotoLibraryUsageDescription": [],
+          "UIBackgroundModes": [],
+          "NSAppTransportSecurity": [],
+          "UISupportedInterfaceOrientations": []
+        }
+      }
+    }
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.youdu.cordova"
+    }
+  },
+  "dependent_plugins": {},
+  "modules": [],
+  "plugin_metadata": {
+    "cordova-plugin-whitelist": "1.3.3"
+  }
+}
